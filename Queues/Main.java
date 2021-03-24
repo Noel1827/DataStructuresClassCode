@@ -22,17 +22,25 @@ public class Main {
         // }
         // System.out.println(queue);
 
-        ArrayQueue queue = new ArrayQueue(5);
+        // ArrayQueue queue = new ArrayQueue(5);
+        // queue.enqueue(10);
+        // queue.enqueue(20);
+        // queue.enqueue(30);
+        // queue.enqueue(40);
+        // queue.enqueue(50);
+     
+        
+        // QueueReverser reverser = new QueueReverser();
+        // queue = reverser.reverse(queue, 2);
+        // System.out.println(queue);
+        
+
+        LinkedListQueue queue = new LinkedListQueue();
         queue.enqueue(10);
         queue.enqueue(20);
         queue.enqueue(30);
         queue.enqueue(40);
-        queue.enqueue(50);
-     
-        
-        QueueReverser reverser = new QueueReverser();
-        queue = reverser.reverse(queue, 2);
-        System.out.println(queue);
-        
+        System.out.println(queue.isEmpty());
+    //   queue.print();
     }
 }
